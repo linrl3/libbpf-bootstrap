@@ -450,18 +450,6 @@ $ sudo ./target/release/xdp 1
 <...>
 ```
 
-# Additional Tools
-
-## Jedis Class Version Finder
-
-For information about Java Redis client library (Jedis) class versions, see `tools/JEDIS_CLASS_FINDER.md` or run:
-
-```shell
-$ ./tools/find_jedis_class_version.py
-```
-
-This utility helps identify which versions of the Jedis library contain specific classes.
-
 # Troubleshooting
 
 Libbpf debug logs are quire helpful to pinpoint the exact source of problems,
